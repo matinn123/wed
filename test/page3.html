@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+					text-align: auto;
+					background: url("bg1.jpg");
+				}
+			h1{ 					
+				text-align: center;
+				margin: auto;
+				font-size: 40px;
+				width: 1000px;
+				border-bottom: 3px solid #333; 
+				font-family:cursive; 
+			}
+			form{
+				margin-top:40px; 
+				padding: 10px;
+			}
+			table{
+				margin-top: 40px; 
+			}
+			.p{
+				margin-top: 10px; 
+			}
+		</style>	
+	</head>
+	<body>
+		<h1>Welcome to Millenium Gynmastics Booster Club Popcorn Sale</h1>
+
+		<form>
+			Buyer's Name    : <input type="text" name="Buyer">
+			<br>
+			Street Address : <input type="text" name="Street">
+			<br>
+			City,State,Zip  : <input type="text" name="City">
+		</form>
+
+		<table>
+			<tr>
+				<th>Product Name</th>
+				<th>Price Quantity</th>
+			</tr>
+			<tr>
+				<th>Unpopped Popcorn (1 lb.)</th>
+				<th>$3.00<input type="text" name="pay1"></th>
+			</tr>
+			<tr>
+				<th>Caramel Popcorn (2 lb. cannister)</th>
+				<th>$3.50<input type="text" name="pay2"></th>
+			</tr>
+			<tr>
+				<th>Caramel Nut Popcorn (2 lb. cannister)</th>
+				<th>$4.50<input type="text" name="pay3"></th>
+			</tr>
+			<tr>
+				<th>Toffey Nut Popcorn (2 lb. cannister)</th>
+				<th>$5.00<input type="text" name="pay4"></th>
+			</tr>
+		</table>
+
+		<h2>Payment Method</h2>
+		<form>
+			<input type="radio" name="Payment" value="Visa"checked>Visa<br>
+			<input type="radio" name="Payment" value="MasterCard"checked>Master Card<br>
+			<input type="radio" name="Payment" value="Discover"checked>Discover<br>
+			<input type="radio" name="Payment" value="Check"checked>Check
+		</form>
+		<br>
+		<button id="submit" name="submit">Submit Order</button> 
+		<button id="submit" name="Clear">Clear Order Form</button> 
+		<div class="p">
+			<a href="about.html"><button id="submit" name="gotopage1">Previous</button> 
+			<a href="page3.html"><button id="submit" name="gotopage3">Go to Page 3</button> 
+		</div>
+	</body>	
+</html>
